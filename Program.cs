@@ -1,4 +1,10 @@
-﻿string[] inputArray = {"123","1234","2345","12"};
+﻿Console.WriteLine("Введите длинну исходного массива");
+int x = Convert.ToInt32(Console.ReadLine());
+string[] inputArray = new string[x];
+for (int i = 0; i < x; i++)
+{
+    inputArray[i] = Console.ReadLine();
+}
 
 string[] outputArray = new string[0]; 
     
